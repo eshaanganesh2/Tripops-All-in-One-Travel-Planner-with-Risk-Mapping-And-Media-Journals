@@ -1,4 +1,10 @@
 # Tripops
+
+A full-stack travel planning web application built with Node.js, Express, and MongoDB. 
+Tripops consolidates travel research, journaling, and weather tracking into a single 
+platform, integrating Mapbox for geospatial visualization, NewsAPI for location-based 
+news, MongoDB GridFS for multimedia storage, and Nodemailer + WeatherAPI for 
+automated daily forecast delivery via email.
 Tripops was developed in order to provide users a one-stop solution for travel-planning. The application consists of: 
 * An **interactive choropleth map** to depict countries by their natural-disaster risk scores 
 * A component for users to obtain **news articles** by location 
@@ -43,10 +49,10 @@ Open another terminal window and navigate to the **backend** folder. Run the com
 
 Type ```localhost:3000/register``` in your browser and hit Enter to visit the registration page
 
-## Note :warning:
+## Note
 All API keys and email authentication keys are stored in a **.env file** (not pushed to GitHub). Hence, all ```process.env``` variables must be replaced with your own personal keys.
 
-## Demo (Demo GIFs may take 1-2 minutes to load :exclamation:)
+## Demo (GIFs may take 1-2 minutes to load)
 
 <h3> <ins> Registration Page </ins> </h3>
 <img src="https://github.com/eshaanganesh2/Tripops/blob/main/demo/register.PNG" width="512"/>
